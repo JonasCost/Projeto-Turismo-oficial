@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+   padding: 0;
+ 
+}
+
+:root{
+    font-family: abel;
+    
+}
+
+body{
+background-image: url(praia3.jpg);
+/* background-color: rgb(245, 234, 213); */
+
+/* background-color: rgb(233, 226, 124); melhor cor de fundo */
+background-size: cover;
+
+}
+
+/* mãe */
+main{
+    padding: 90px;
+}
+
+/* titulo */
+h1{
+font-family: anton;
+text-align: center;
+font-size: 140px;
+color: black;
+margin: 30px;
+}
+
+/* div criada para ser uma linha preta  */
+#espaco{
+    padding:4px ;
+    background-color: black;
+    width: 800px;
+    margin: auto;
+    
+}
+
+/* texto depois do titulo */
+#sub{
+    color: black;
+    text-align: justify;
+    line-height: 120%;
+    font-size: 30px;
+    padding: 50px;
+    
+}
+
+/* subtitulos */
+h2{
+    color: white;
+    text-align: justify;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 40px;
+    padding: 10px;
+    background-color: black;
+}
+
+/* textos do paragrafo */
+p{
+    color: white;
+    text-align: justify;
+    margin-left: 30px;
+    line-height: 150%;
+    background-color: black;
+    padding: 60px;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+}
+
+
+/* imagens para manipular */
+#tudo{
+    width: 570px;
+    height: 450px;
+    padding: 10px;
+    background-color: black;
+    /* border-radius: 10px; */
+}
+
+#cristo, #morro, #rua{
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: auto;
+    display: flex;  
+    
+
+}  
+
+
+footer{
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background-color: black;
+    /* opacity: 90%; */
+}
